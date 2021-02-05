@@ -1,0 +1,122 @@
+    1  git --version
+    2  touch index.html
+    3  touch app.js
+    4  git init
+    5  git config --global user.name 'Tumelo53'
+    6  git config --global user.email 'tumelomothuli861@gmail.com'
+    7  git add index.html
+    8  git status
+    9  git rm --cached index.html 
+   10  git status
+   11  git add *.html
+   12  git status
+   13  git rm --cached index.html 
+   14  git add .
+   15  git status
+   16  git status
+   17  git status
+   18  git add .
+   19  git status
+   20  git commit
+   21  git status
+   22  clear
+   23  touch .gitignore
+   24  touch log.text
+   25  git add .
+   26  git status
+   27  git rm --cache log.text
+   28  git status 
+   29  touch log.txt
+   30  git status 
+   31  git add .
+   32  git status 
+   33  git add .
+   34  git status 
+   35  git branch login
+   36  git status
+   37  git commit -m 'another change'
+   38  git status
+   39  git checkout login
+   40  clear
+   41  touch login.html
+   42  git add.
+   43  git add .
+   44  git commit -m 'Login form"
+   45  '
+   46  git checkout master
+   47  git status
+   48  gitmerge login
+   49  git merge login
+   50  git remote add origin https://github.com/Tumelo53/TestApp.git
+   51  git remote
+   52  git push -u origin main
+   53  git push -u origin master
+   54  touch README.md
+   55  git add .
+   56  git commit -m 'Readme'
+   57  git push
+   58  git clone https://github.com/Tumelo53/TestApp.git
+   59  git pull
+   60  ls -a
+   61  git init
+   62  ls -a
+   63  touch README.MD
+   64  ls -a
+   65  git status
+   66  git log
+   67  git add .
+   68  git status
+   69  git rm --cache README.MD 
+   70  ls -a
+   71  git rm  README.MD 
+   72  git status
+   73  ls -a
+   74  touch README.md
+   75  git add .
+   76  git commit -m 'intial commit'
+   77  git log
+   78  nano README.md 
+   79  cat README.md 
+   80  git status
+   81   git commit -m 'scond commit'
+   82   git add .
+   83  git status
+   84  git commit -m 'second commit'
+   85  git status
+   86  nano README.md 
+   87  git status
+   88   git add .
+   89  git commit -m 'third commit'
+   90  git log
+   91  git checkout 933cb4ddb845cb439b44366a5c28c3a661aa7979
+   92  cat README.md 
+   93  git checkout main
+   94  git checkout master
+   95  cat README.md 
+   96  clear
+   97  git branch
+   98  git checkout milkshake-flavours
+   99  git branch checkout milkshake-flavours
+  100  git branch checkout -b milkshake-flavours
+  101  git branch
+  102  git branch milkshake-flavours
+  103  git branch 
+  104  git branch checkout milkshake-flavours
+  105  git checkout milkshake-flavours
+  106  git branch
+  107  nano milkshakes.md
+  108  git status 
+  109   git add .
+  110  git commit -m 'added initial flavours'
+  111  git log
+  112  git checkout master
+  113  git log
+  114  git branch History
+  115  git checkout history
+  116  git log
+  117  git branch
+  118  git checkout master
+  119  git branch -d 'checkout'
+  120  git checkout history
+  121  git branch
+  122  history > history.txt
